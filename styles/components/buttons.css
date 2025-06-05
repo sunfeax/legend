@@ -1,0 +1,84 @@
+#glovoBtn {
+    display: inline-block;
+    width: 128px;
+    height: 96px;
+    background-image: url('../../img/icons/glovo-logo-vector.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    margin-top: -10px;
+    transition: transform ease 0.3s;
+}
+
+#glovoBtn:hover {
+    transform: scale(1.2);
+}
+
+.more-info {
+    position: absolute;
+    background: none;
+    border: rgba(255, 255, 255, 0.503) solid 3px;
+    color: rgba(255, 255, 255, 0.653);
+    padding: 10px 20px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20%);
+    font-size: 22px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.more-info:hover {
+    color: white;
+    border: white solid 3px;
+    transform: translateX(-50%) translateY(-10%);
+}
+
+.btn-home {
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgba(176, 76, 5, 1) 7%, rgba(235, 205, 35, 1) 60%, rgba(255, 149, 0, 1) 100%);
+    width: 240px;
+    height: 50px;
+    border: none;
+    transition: background 0.5s ease 0.3s, transform 0.3s ease;
+    border-radius: 30px;
+}
+
+.btn-home:hover {
+    transform: scale(1.1);
+    background: linear-gradient(90deg, rgba(235, 100, 5, 1) 7%, rgba(252, 227, 86, 1) 60%, rgb(255, 103, 38) 100%);
+}
+
+.btn-home a {
+    padding: 10px 45px;
+    width: 100%;
+    color: black;
+    font-weight: 500;
+    text-shadow: 1px 4px 7px rgba(0, 0, 0, 0.15);
+    font-size: 28px;
+    border-radius: 30px;
+}
+
+.scroll-top-btn {
+    display: flex;
+    position: fixed;
+    bottom: -70px;
+    right: 30px;
+    background: #e99657;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: ease 0.4s;
+    z-index: 1;
+}
+
+.scroll-top-btn.active {
+    bottom: 30px;
+}

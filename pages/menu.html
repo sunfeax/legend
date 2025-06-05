@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <title>Legend Social Club | Carta</title>
+</head>
+<body>
+    <div id="burger-menu">
+        <nav id="ham-menu">
+            <div>
+                <span></span>
+                <span></span>
+                <label id="menu-word">Menú</label>
+            </div>
+        </nav>
+        
+        <nav id="menu">
+            <ul id="off-screen-menu" class="flex-column">
+                <li><a href="./home.html">INICIO</a></li>
+                <li><a href="./menu.html">CARTA</a></li>
+                <li><a href="https://cabinet.statix-pro.ru/forms/legend_social_club" target="_blank" rel="noopener noreferrer" title="Programa de fidelidad para clientes">CLUB FIDELIDAD</a></li>
+                <li><a href="./home.html#space">ESPACIO</a></li>
+                <li><a href="./home.html#reviews">RESEÑAS</a></li>
+                <div class="links">
+                    <a href="https://www.instagram.com/legendclub_valencia/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.google.com/maps/place/LEGEND+SOCIAL+CLUB/@39.4707018,-0.3744243,14z/data=!4m6!3m5!1s0xd6049d1ab98ec61:0xb313b54346dc58b7!8m2!3d39.4642579!4d-0.3616591!16s%2Fg%2F11l6xcr815?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>    
+                </div>
+            </ul>
+        </nav>
+    </div>
+    
+    <section>
+        <header>
+            <a href="./home.html" aria-current="page">
+                <img id="logo" src="../img/logo-home.png" alt="logo" title="Inicio">
+            </a>
+
+            <div id="head-right-side">
+                <a id="glovoBtn" href="https://glovoapp.com/es/ca/valencia/legend-lounge-valencia" target="_blank" rel="noopener noreferrer" title="Pedir en Glovo"></a>
+                <div id="phone-block">
+                    <a id="phone-icon" href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer">
+                        <i id="phone-icon" class="fa-solid fa-phone-volume"></i>                    </a>                
+                    <a id="phone-number" href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer" title="Haz clic para escribir por WhatsApp">+34&nbsp;681&nbsp;016&nbsp;392</a>
+                </div>
+                <button class="language-switcher" type="button">
+                    <span class="language-code">ES</span>
+                    <img src="../img/icons/button-arrow-down.svg" alt="">
+                </button>
+            </div>
+        </header>
+
+        <main id="main-menu">
+            <aside id="sidebar" class="flex-column">
+                <div id="search">
+                    <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="input-search" placeholder="Ej.: Sangría">
+                </div>
+
+                <div id="categories" class="flex-column">
+
+                    <div class="menu-category flex-column">
+                        <button class="menu-toggle" data-target="cachimba" type="button">Cachimba</button>
+                        <div class="submenu collapsible flex-column">
+                            <a class="subcategory" href="#clasica">Clásica</a>
+                            <a class="subcategory" href="#pomelo">En pomelo</a>
+                            <a class="subcategory" href="#manzana">En manzana</a>
+                            <a class="subcategory" href="#pina">En piña</a>
+                            <a class="subcategory" href="#cubo-rojo">Cubo rojo</a>
+                            <a class="subcategory" href="#cubo-verde">Cubo verde</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-category flex-column">
+                        <button class="menu-toggle" data-target="cocina" type="button">Cocina</button>
+                        <div class="submenu collapsible flex-column" href="#cocina">
+                            <a class="subcategory" href="#platos-calientes">Platos Calientes</a>
+                            <a class="subcategory" href="#sandwiches-snacks">Sandwiches y Snacks</a>
+                            <a class="subcategory" href="#ensaladas">Ensaladas</a>
+                            <a class="subcategory" href="#sopas">Sopas</a>
+                            <a class="subcategory" href="#sushi">Sushi</a>
+                            <a class="subcategory" href="#gofres">Gofres</a>
+                            <a class="subcategory" href="#postres">Postres</a>
+                        </div>
+                    </div>
+                  
+                    <div class="menu-category flex-column">
+                        <button class="menu-toggle" data-target="bebidas" type="button">Bebidas</button>
+                        <div class="submenu collapsible flex-column" href="#bebidas">
+                            <a class="subcategory" href="#te">Té</a>
+                            <a class="subcategory" href="#cafe">Café</a>
+                            <a class="subcategory" href="#refrescos">Refrescos</a>
+                            <a class="subcategory" href="#smoothies">Smoothies</a>
+                            <a class="subcategory" href="#batidos">Batidos</a>
+                            <a class="subcategory" href="#fresh">Zumo natural</a>
+                        </div>
+                    </div>
+                  
+                    <div class="menu-category flex-column">
+                        <button class="menu-toggle" data-target="cocteles" type="button">Cócteles</button>
+                        <div class="submenu collapsible flex-column">
+                            <a class="subcategory" href="#cocteles-clasicos">Clásicos</a>
+                            <a class="subcategory" href="#cocteles-especiales">Especiales</a>
+                        </div>
+                    </div>
+                  
+                    <div class="menu-category flex-column">
+                        <button class="menu-toggle" data-target="alcohol" type="button">Alcohol</button>
+                        <div class="submenu collapsible flex-column">
+                            <a class="subcategory" href="#cerveza">Cerveza</a>
+                            <a class="subcategory" href="#sangria">Sangría</a>
+                            <a class="subcategory" href="#whiskey">Whiskey</a>
+                            <a class="subcategory" href="#gin-tonic">Gin&Tonic</a>
+                            <a class="subcategory" href="#shots">Shots</a>
+                            <a class="subcategory" href="#vodka">Vodka</a>
+                            <a class="subcategory" href="#tequila">Tequila</a>
+                            <a class="subcategory" href="#gin">Gin</a>
+                            <a class="subcategory" href="#rum">Rum</a>
+                            <a class="subcategory" href="#absenta">Absenta</a>
+                            <a class="subcategory" href="#cognac">Cognac</a>
+                            <a class="subcategory" href="#liquor">Liquor</a>
+                            <a class="subcategory" href="#port-wine">Port Wine</a>
+                            <a class="subcategory" href="#sambuca">Sambuca</a>
+                            <a class="subcategory" href="#vermouth">Vermouth</a>
+                            <a class="subcategory" href="#hot-drinks">Bebidas Calientes</a>
+                        </div>
+                    </div>
+                  
+                    <div class="menu-category flex-column">
+                        <button class="menu-toggle" data-target="vinos" type="button">Vinos</button>
+                        <div class="submenu collapsible flex-column">
+                            <a class="subcategory" href="#tinto">Tinto</a>
+                            <a class="subcategory" href="#copa-tinto">Copa de vino</a>
+                            <a class="subcategory" href="#blanco">Blancos</a>
+                            <a class="subcategory" href="#copa-blanco">Copa de vino</a>
+                            <a class="subcategory" href="#champan">Champán</a>
+                            <a class="subcategory" href="#rosado">Rosados</a>
+                            <a class="subcategory" href="#copa-rosado">Copa de vino</a>
+                            <a class="subcategory" href="#espumoso">Espumoso</a>
+                            <a class="subcategory" href="#copa-espumoso">Copa de espumoso</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main id="content" class="flex-column">
+                
+                <div class="category flex-column">
+                    <h4 class="category-title">CACHIMBA</h4>
+                    <div class="hookah flex-column" id="cachimba"></div>
+                </div>
+
+                <div class="category flex-column" id="cocina">
+                    <h3 class="category-title">COCINA</h3>
+                    
+                    <ul class="ul-items flex column">
+                        <li class="li-items flex-column" id="platos-calientes">
+                            <h4 class="submenu-title">PLATOS CALIENTES</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="sandwiches-snacks">
+                            <h4 class="submenu-title">SANDWICHES Y SNACKS</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="ensaladas">
+                            <h4 class="submenu-title">ENSALADAS</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="sopas">
+                            <h4 class="submenu-title">SOPAS</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="sushi">
+                            <h4 class="submenu-title">SUSHI</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="gofres">
+                            <h4 class="submenu-title">GOFRES</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="postres">
+                            <h4 class="submenu-title">POSTRES</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="category flex-column" id="bebidas">
+                    <h3 class="category-title">BEBIDAS</h3>
+                    <ul class="ul-items flex-column">
+                        <li class="li-items flex-column" id="te"></li>
+
+                        <li class="li-items flex-column" id="cafe">
+                            <h4 class="submenu-title">CAFÉ</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="refrescos">
+                            <h4 class="submenu-title">REFRESCOS</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="smoothies">
+                            <h4 class="submenu-title">SMOOTHIES</h4>
+                            <li class="li-items flex-column" id="smoothies-extra"></li>
+                        </li>
+
+                        <li class="li-items flex-column" id="batidos">
+                            <h4 class="submenu-title">BATIDOS</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="fresh">
+                            <h4 class="submenu-title">ZUMO NATURAL</h4>
+                        </li>
+                    </ul>
+                </div>    
+
+                <div class="category flex-column" id="cocteles">
+                    <h3 class="category-title">CÓCTELES</h3>
+                    <ul class="ul-items flex-column">
+                        <li class="li-items flex-column" id="cocteles-clasicos">
+                            <h4 class="submenu-title">CÓCTELES CLÁSICOS</h4>
+                        </li>
+                        <li class="li-items flex-column" id="cocteles-especiales">
+                            <h4 class="submenu-title">CÓCTELES ESPECIALES</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">COPA</span>
+                                <span class="volume-label">DECANTER</span>
+                            </div>
+
+                        </li>
+                        <li class="li-items flex-column" id="cocteles-especiales-temporada">
+                            <h4 class="submenu-extra-title">TEMPORADA</h4>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="category flex-column" id="alcohol">
+                    <h3 class="category-title">ALCOHOL</h3>
+                    <ul class="ul-items flex-column">
+                        <li class="li-items flex-column" id="cerveza">
+                            <h4 class="submenu-title">CERVEZA</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">33ml</span>
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="sangria">
+                            <h4 class="submenu-title">SANGRÍA</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">COPA</span>
+                                <span class="volume-label">DECANTER</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="whiskey">
+                            <h4 class="submenu-title">WHISKEY</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="gin-tonic">
+                            <h4 class="submenu-title">GIN&TONIC</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="shots">
+                            <h4 class="submenu-title">SHOTS</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="vodka">
+                            <h4 class="submenu-title">VODKA</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="tequila">
+                            <h4 class="submenu-title">TEQUILA</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="gin">
+                            <h4 class="submenu-title">GIN</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="rum">
+                            <h4 class="submenu-title">RUM</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="absenta">
+                            <h4 class="submenu-title">ABSENTA</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="cognac">
+                            <h4 class="submenu-title">COGNAC</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="liquor">
+                            <h4 class="submenu-title">LIQUOR</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="port-wine">
+                            <h4 class="submenu-title">PORT WINE</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">75ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="sambuca">
+                            <h4 class="submenu-title">SAMBUCA</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">50ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="vermouth">
+                            <h4 class="submenu-title">VERMOUTH</h4>
+                            <div class="item-volume"> 
+                                <span class="volume-label">100ml</span>
+                            </div>
+                        </li>
+
+                        <li class="li-items flex-column" id="hot-drinks">
+                            <h4 class="submenu-title">BEBIDAS CALIENTES</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="category flex-column" id="vinos">
+                    <h3 class="category-title">VINOS</h3>
+                    <ul class="ul-items flex-column">
+                        <li class="li-items flex-column" id="tinto">
+                            <h4 class="submenu-title">TINTO</h4>
+                        </li>
+                        
+                        <li class="li-items flex-column" id="copa-tinto">
+                            <h4 class="submenu-title">COPA DE VINO TINTO</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="blanco">
+                            <h4 class="submenu-title">BLANCOS</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="copa-blanco">
+                            <h4 class="submenu-title">COPA DE VINO BLANCO</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="champan">
+                            <h4 class="submenu-title">CHAMPÁN</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="rosado">
+                            <h4 class="submenu-title">ROSADO</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="copa-rosado">
+                            <h4 class="submenu-title">COPA DE VINO ROSADO</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="espumoso">
+                            <h4 class="submenu-title">ESPUMOSO</h4>
+                        </li>
+
+                        <li class="li-items flex-column" id="copa-espumoso">
+                            <h4 class="submenu-title">COPA DE ESPUMOSO</h4>
+                        </li>
+                    </ul>
+                </div>
+            </main>
+        </main>
+        <footer class="flex-column">
+            <div id="top">
+                <div id="left-side" class="flex-column">
+                    <img id="logo-footer" src="../img/logo.jpg" alt="">
+                    <h3><strong>LEGEND SOCIAL CLUB</strong></h3>
+                    <div class="links">
+                        <a href="https://www.instagram.com/legendclub_valencia/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.google.com/maps/place/LEGEND+SOCIAL+CLUB/@39.4707018,-0.3744243,14z/data=!4m6!3m5!1s0xd6049d1ab98ec61:0xb313b54346dc58b7!8m2!3d39.4642579!4d-0.3616591!16s%2Fg%2F11l6xcr815?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>    
+                    </div>
+                </div>
+                <div id="right-side" class="flex-column">
+                    <div id="container">
+                        <div id="schedule">
+                            <i class="fa-solid fa-clock"></i>
+                            <div id="time" class="flex-column">
+                                <p><strong>Lunes a Jueves:</strong> 12:00 – 01:00</p>
+                                <p><strong>Viernes y Sábado:</strong> 12:00 – 02:30</p>
+                                <p><strong>Domingo:</strong> 12:00 – 01:00</p>                        
+                            </div>
+                        </div>
+                        <div id="info">
+                            <div id="icons" class="flex-column>
+                                <i class="fa-solid fa-phone"></i>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div id="contact" class="flex-column">
+                                <a href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer">
+                                    +34 681 016 392
+                                </a>
+                                <a href="https://maps.app.goo.gl/NMumu5CFdPSNNWUU6" target="_blank" rel="noopener noreferrer">
+                                    Av. de Jacinto Benavente 27, Valencia
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="policies">
+                        <li><a href="./privacy.html">Política de privacidad</a></li>
+                        <li><a href="./cookies.html">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p id="rights">Copyright 2025 Legend Social Lounge. Reservados todos los derechos.</p>
+        </footer>
+        <div id="scroll-top-btn" class="scroll-top-btn">
+            <svg style="transform: rotate(270deg);" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+        </div>
+    </section>
+    <script src="../scripts/menuGenerate.js"></script>
+    <script src="../scripts/collapsibleCategory.js"></script>
+    <script src="../scripts/burgerMenu.js"></script>
+    <script src="../scripts/scrollTop.js"></script>
+</body>
+</html>

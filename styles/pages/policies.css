@@ -1,0 +1,47 @@
+#main-privacy,
+#main-cookies {
+    margin-top: 6rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    top: 20px;
+    padding: 0 2rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-privacy h1,
+#main-privacy h2,
+#main-cookies h1,
+#main-cookies h2 {
+    text-align: center;
+}
+
+#main-privacy h1,
+#main-cookies h1 {
+    font-size: 40px;
+}
+
+#main-privacy p,
+#main-privacy ul,
+#main-cookies p,
+#main-cookies ul {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#main-privacy li,
+#main-cookies li {
+    list-style: circle;
+    margin-left: 18px;
+    font-size: 20px;
+}
+
+#main-privacy p,
+#main-cookies p {
+    font-size: 20px;
+}

@@ -1,0 +1,117 @@
+header {
+    position: fixed;
+    height: 6rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1.5rem;
+    letter-spacing: 1px;
+}
+
+#logo {
+    height: auto;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    position: absolute;
+}
+
+#phone-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    transition: all ease 0.3s;
+}
+
+#phone-icon {
+    transition: all ease 0.3s;
+}
+
+#phone-icon:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+header a {
+    font-weight: 500;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,1) 0%,
+        rgb(0, 0, 0.9) 25%,
+        rgba(0, 0, 0, 0.800) 50%,
+        rgba(0, 0, 0, 0.500) 80%,
+        rgba(0, 0, 0, 0.050) 100%
+    );
+}
+
+#head-right-side {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px 15px;
+  padding-right: 10px;
+  width: auto;
+  background: transparent;
+  border: 2px solid #E99657;
+  color: #E99657;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  
+  &:hover {
+    background-color: rgba(77, 77, 77, 0.634);
+  }
+  
+  &:active {
+    transform: scale(0.95);
+  }
+  
+  &.active {
+    background: #E99657;
+    color: white;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 1px solid transparent;
+    border-radius: 34px;
+    transition: all 0.3s ease;
+  }
+  
+  &:hover::after {
+    border-color: #E99657;
+  }
+}

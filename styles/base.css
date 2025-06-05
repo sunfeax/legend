@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'fleuron', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #e99657;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+@font-face {
+    font-family: 'fleuron';
+    src: url('../fonts/Fleuron.woff') format('woff'),
+         url('../fonts/Fleuron.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #e99657;
+    text-decoration: none;
+    transition: color ease 0.3s;
+}
+
+a:hover {
+    color: white;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}

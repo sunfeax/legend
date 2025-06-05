@@ -1,0 +1,72 @@
+[
+  {
+    "name": "sasha bravo",
+    "stars": 5,
+    "text": "Mis amigos y yo decidimos visitar este lugar y quedamos encantados. Primero que todo, la cachimba de Antonina fue la mejor de mi vida. En segundo lugar, Alexandra y Anton dejaron las impresiones más agradables de este lugar. En resumen, definitivamente debes visitar este lugar y quedarás muy satisfecho, especialmente con las sonrisas que te acompañarán durante toda tu estadía aquí.",
+    "date": "Hace una semana",
+    "isNew": true
+  },
+  {
+    "name": "Señor KotTito",
+    "stars": 5,
+    "text": "El mejor lugar de Valencia, Alexandra es la mejor, nos dieron la cachimba más deliciosa de Antonina, y Anton fue amable y encantador, en general, ¡recomiendo mucho visitarlo!",
+    "date": "Hace 3 días",
+    "isNew": true
+  },
+  {
+    "name": "Андрей Горборуков",
+    "stars": 5,
+    "text": "Buen lugar, quedamos satisfechos. El interior es acogedor, la música no molesta, puedes sentarte tranquilamente y charlar. Las pipas de agua son de muy alta calidad: el sabor dura mucho tiempo y la calada es suave. Pero lo que realmente me gustó fue el servicio. Nos atendió una chica llamada María, muy agradable, atenta, todo claro, sin pretensiones. Llegó a tiempo, ayudó con la elección y no desapareció, como suele suceder. En general, el ambiente y la actitud hacia los huéspedes son los puntos fuertes del establecimiento. Vendremos otra vez.",
+    "date": "Hace 5 días",
+    "isNew": true
+  },
+  {
+    "name": "Eliseth Pernas Luis",
+    "stars": 5,
+    "text": "Fue genial y el chico que nos atendió se llamaba Antón y súper atento y muy profesional",
+    "date": "Hace 2 semanas",
+    "isNew": false
+  },
+  {
+    "name": "Irina",
+    "stars": 5,
+    "text": "Lugar relajante y personal muy amable, sofás súper cómodos! Volveré ❤️",
+    "date": "Hace un mes",
+    "isNew": false
+  },
+  {
+    "name": "Ventas tfn2005",
+    "stars": 5,
+    "text": "Fuimos con unos amigos y la pasamos genial !!! Los cócteles son muy buenos y la atención excelente ! Repetiremos",
+    "date": "Hace 2 meses",
+    "isNew": false
+  },
+  {
+    "name": "Pepe Santos",
+    "stars": 5,
+    "text": "Legend me encantó. Tonya fue un amor y me preparó la mejor cachimba que he probado. Ambiente top. Volveré seguro.",
+    "date": "Hace 2 semanas",
+    "isNew": false
+  },
+  {
+    "name": "alexander proaño",
+    "stars": 5,
+    "text": "Muy buen lugar , asientos cómodos y  los trabajadores dan un buen servicio 👏👏 lo recomiendo ya es mi 3 vez que vengo.",
+    "date": "Hace 5 meses",
+    "isNew": false
+  },
+  {
+    "name": "Michelle Rodriguez",
+    "stars": 5,
+    "text": "Me encanta 100% recomendado el trato estupendo de los camareros el sitio tranquilo y calidad de bebidas os recomiendo chicos!!!✨🙏👏👏👏👏🥰🥰🥰🥰🥰…",
+    "date": "Hace un año",
+    "isNew": false
+  },
+  {
+    "name": "Rob Gz",
+    "stars": 5,
+    "text": "Legend Social Club es, sin duda, uno de mis lugares favoritos en Valencia para desconectar y pasar una noche diferente. Desde la primera vez que fui, me sorprendió el ambiente tan cuidado que tienen: elegante, moderno y muy acogedor. La decoración está pensada al detalle y se nota que buscan ofrecer una experiencia más exclusiva.\nLo que más me gusta es la calidad de las cachimbas. He probado muchos sitios en Valencia, y sinceramente, aquí son de las mejores. Tienen una gran variedad de sabores y siempre están pendientes de que el carbón esté perfecto. Se nota que les importa la experiencia del cliente.\nLos cócteles también son una maravilla. Hay opciones clásicas, pero también propuestas originales que no se encuentran fácilmente en otros bares. Todo lo que probé estaba muy bien preparado y servido con estilo. Además, tienen comida para acompañar, y me sorprendió lo rica que estaba, especialmente si estás con hambre después de unos tragos.\nEl personal es súper amable, atentos sin agobiar, y siempre con buena onda. Me sentí muy bien tratado y eso hace que uno quiera volver. La música y la iluminación también ayudan mucho a crear un ambiente chill pero con estilo.\nRecomiendo Legend si buscas algo distinto en Valencia, con buena vibra y calidad en cada detalle. Ideal para ir con amigos o en plan más íntimo. ¡Volveré sin duda!",
+    "date": "Hace un mes",
+    "isNew": false
+  }
+]

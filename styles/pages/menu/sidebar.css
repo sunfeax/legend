@@ -1,0 +1,78 @@
+#sidebar {
+    width: auto;
+    height: 86vh;
+    background-color: rgba(21, 21, 21, 0.766);
+    border-radius: 30px;
+    gap: 30px;
+    padding: 20px;
+    overflow-y: auto;
+    position: sticky;
+    top: 6rem;
+}
+    
+#search {
+    position: relative;
+}
+
+#input-search {
+    width: 250px;
+    height: 45px;
+    outline: none;
+    border: #e99657 2px solid;
+    border-radius: 30px;
+    font-size: 22px;
+    color: #e99657;
+    background-color: rgba(21, 21, 21, 0.766);
+    padding-left: 50px;
+}
+
+#search-icon {
+    font-size: 24px;
+    position: absolute;    
+    z-index: 1;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+#categories {
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-toggle {
+    width: 250px;
+    border:#e99657 solid 2px;
+    background-color: rgba(0, 0, 0, 0.505);
+    font-size: 24px;
+    height: 50px;
+    border-radius: 30px;
+    transition: background ease 0.5s;
+    cursor: pointer;
+    outline: none;
+}
+
+.menu-toggle:hover {
+    background-color: rgba(77, 77, 77, 0.634);
+}
+
+.menu-category {
+    gap: 10px;
+}
+
+.submenu {
+    gap: 10px;
+}
+
+.subcategory {
+    font-size: 24px;
+    min-width: 230px;
+}
+
+.collapsible {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease;
+}

@@ -1,0 +1,165 @@
+#content {
+    width: 700px;
+    height: auto;
+    border-radius: 30px;
+    gap: 25px;
+}
+
+.category {
+    background-color: rgba(21, 21, 21, 0.766);
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.category-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.829);
+    padding-top: 20px;
+}
+
+.submenu-title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 25px;
+}
+
+.ul-items {
+    gap: 30px;
+}
+
+.items li {
+    display: flex;
+}
+
+.li-items {
+    gap: 25px;
+}
+
+.item {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item-name,
+.item-price {
+    font-size: 22px;
+}
+
+.item-name {
+    width: 400px;
+}
+
+.item-price {
+    color: rgba(255, 255, 255, 0.829);
+    width: 100px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.item-price {
+    text-align: center;
+    width: 120px;
+}
+
+.item-volume {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.volume-label {
+    width: 120px;
+    text-align: center;
+}
+
+.item-description {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.829);   
+}
+
+.submenu-extra-title{
+    font-size: 22px;
+    color: #e46b0e;
+}
+
+.item-with-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.container-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transform: scale(1.2);
+}
+
+.item-info {
+    gap: 10px;
+}
+
+.item-info-n-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 418px;
+}
+
+.hookah-item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.hookah-image-container {
+    width: 170px;
+    height: 230px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.hookah-image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hookah-info {
+    gap: 10px;
+    width: 480px;
+}
+
+.hookah-name-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(0, 0, 0, 0.97);
+}
+
+section {
+    position: relative;
+    background-image: url('../img/background-darken.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}

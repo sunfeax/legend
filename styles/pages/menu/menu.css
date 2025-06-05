@@ -1,0 +1,14 @@
+@import url(./scrollbar.css);
+@import url(./sidebar.css);
+@import url(./content.css);
+
+#main-menu {
+    margin-top: 6rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    min-height: 100vh;
+    align-items: flex-start;
+}

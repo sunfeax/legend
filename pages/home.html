@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    
+    <!-- Swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+    <title>Legend Social Club</title>
+</head>
+<body>
+    <div id="burger-menu">
+        <nav id="ham-menu">
+            <div>
+                <span></span>
+                <span></span>
+                <label id="menu-word">Menú</label>
+            </div>
+        </nav>
+        
+        <nav id="menu">
+            <ul id="off-screen-menu" class="flex-column">
+                <li><a href="./home.html" aria-current="page">INICIO</a></li>
+                <li><a href="./menu.html">CARTA</a></li>
+                <li><a href="https://cabinet.statix-pro.ru/forms/legend_social_club" target="_blank" rel="noopener noreferrer" title="Programa de fidelidad para clientes">CLUB FIDELIDAD</a></li>
+                <li><a href="#space">ESPACIO</a></li>
+                <li><a href="#reviews">RESEÑAS</a></li>
+                <div class="links">
+                    <a href="https://www.instagram.com/legendclub_valencia/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.google.com/maps/place/LEGEND+SOCIAL+CLUB/@39.4707018,-0.3744243,14z/data=!4m6!3m5!1s0xd6049d1ab98ec61:0xb313b54346dc58b7!8m2!3d39.4642579!4d-0.3616591!16s%2Fg%2F11l6xcr815?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>    
+                </div>
+            </ul>
+        </nav>
+    </div>
+    
+    <section>
+        <header>
+            <a href="./home.html" aria-current="page">
+                <img id="logo" src="../img/logo-home.png" alt="logo" title="Inicio">
+            </a>
+
+            <div id="head-right-side">
+                <a id="glovoBtn" href="https://glovoapp.com/es/ca/valencia/legend-lounge-valencia" target="_blank" rel="noopener noreferrer" title="Pedir en Glovo"></a>
+                <div id="phone-block">
+                    <a id="phone-icon" href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer">
+                        <i id="phone-icon" class="fa-solid fa-phone-volume"></i>                    </a>                
+                    <a id="phone-number" href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer" title="Haz clic para escribir por WhatsApp">+34&nbsp;681&nbsp;016&nbsp;392</a>
+                </div>
+                <button class="language-switcher" type="button">
+                    <span class="language-code">ES</span>
+                    <img src="../img/icons/button-arrow-down.svg" alt="">
+                </button>
+            </div>
+        </header>
+
+        <main id="main-home" class="flex-column">
+            <div id="homeBtns">
+                <button class="btn-home">
+                    <a href="./menu.html">CARTA</a>
+                </button>
+                <button class="btn-home" type="button">
+                    <a href="https://www.restoplace.ws/?address=73c6278cf2ec414164d0&iframe=1&source=legendlounge.es" target="_blank" rel="noopener noreferrer">RESERVA</a>
+                </button>
+            </div>
+
+            <div id="videos">
+                <div class="video">
+                    <h3 class="video-title">CACHIMBA</h3>
+                    <video src="../videos/shishas.webm" type="video/webm" autoplay muted loop playsinline></video>
+                    <a href="./menu.html#cachimba">
+                        <span class="more-info">Ver más</span>
+                    </a>
+                </div>  
+                <div class="video">
+                    <h3 class="video-title">COCINA</h3>
+                    <video src="../videos/food.webm" type="video/webm" autoplay muted loop playsinline></video>
+                    <a href="./menu.html#cocina">
+                        <span class="more-info">Ver más</span>
+                    </a>
+                </div>                                                  
+                <div class="video">
+                    <h3 class="video-title">BAR</h3>
+                    <video src="../videos/bar.webm" type="video/webm" autoplay muted loop playsinline></video>
+                    <a href="./menu.html#bebidas">
+                        <span class="more-info">Ver más</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Swiper -->
+            <div id="space" class="flex-column">
+                <h1 class="block-title">ESPACIO</h1>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="../img/space/espacio0.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/space/espacio5.jpg" alt=""></div>                        
+                        <div class="swiper-slide"><img src="../img/space/espacio2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/space/espacio3.jpg" alt=""></div>                        
+                        <div class="swiper-slide"><img src="../img/space/espacio1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/space/espacio4.jpg" alt=""></div>                        
+                        <div class="swiper-slide"><img src="../img/space/espacio-bar1.jpg" alt=""></div>                        
+                        <div class="swiper-slide"><img src="../img/space/foto-bar.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div id="reviews" class="flex-column">
+                <div id="reviews-title">
+                    <h1 class="block-title">RESEÑAS</h1>
+                    <a href="https://www.google.com/maps/place/LEGEND+SOCIAL+CLUB/@39.4707018,-0.3744243,14z/data=!4m8!3m7!1s0xd6049d1ab98ec61:0xb313b54346dc58b7!8m2!3d39.4642579!4d-0.3616591!9m1!1b1!16s%2Fg%2F11l6xcr815?entry=ttu&g_ep=EgoyMDI1MDYwMi4wIKXMDSoASAFQAw%3D%3D">
+                        <img id="google-maps-logo" src="../img/icons/Google_Maps.png" alt="">
+                    </a>
+                </div>
+                <div class="swiper review-swiper">
+                    <div class="swiper-wrapper"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="modal-overlay" id="modalOverlay">
+                <div class="modal">
+                    <div id="modalContent"></div>
+                    <div class="close-btn" onclick="closeModal()">Cerrar</div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="flex-column">
+            <div id="top">
+                <div id="left-side" class="flex-column">
+                    <img id="logo-footer" src="../img/logo.jpg" alt="">
+                    <h3><strong>LEGEND SOCIAL CLUB</strong></h3>
+                    <div class="links">
+                        <a href="https://www.instagram.com/legendclub_valencia/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.google.com/maps/place/LEGEND+SOCIAL+CLUB/@39.4707018,-0.3744243,14z/data=!4m6!3m5!1s0xd6049d1ab98ec61:0xb313b54346dc58b7!8m2!3d39.4642579!4d-0.3616591!16s%2Fg%2F11l6xcr815?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>    
+                    </div>
+                </div>
+                <div id="right-side" class="flex-column">
+                    <div id="container">
+                        <div id="schedule">
+                            <i class="fa-solid fa-clock"></i>
+                            <div id="time" class="flex-column">
+                                <p><strong>Lunes a Jueves:</strong> 12:00 – 01:00</p>
+                                <p><strong>Viernes y Sábado:</strong> 12:00 – 02:30</p>
+                                <p><strong>Domingo:</strong> 12:00 – 01:00</p>                        
+                            </div>
+                        </div>
+                        <div id="info">
+                            <div id="icons" class="flex-column>
+                                <i class="fa-solid fa-phone"></i>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div id="contact" class="flex-column">
+                                <a href="https://wa.me/34681016392" target="_blank" rel="noopener noreferrer">
+                                    +34 681 016 392
+                                </a>
+                                <a href="https://maps.app.goo.gl/NMumu5CFdPSNNWUU6" target="_blank" rel="noopener noreferrer">
+                                    Av. de Jacinto Benavente 27, Valencia
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="policies">
+                        <li><a href="./privacy.html">Política de privacidad</a></li>
+                        <li><a href="./cookies.html">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p id="rights">Copyright 2025 Legend Social Lounge. Reservados todos los derechos.</p>
+        </footer>
+        <div id="scroll-top-btn" class="scroll-top-btn">
+            <svg style="transform: rotate(270deg);" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../scripts/swiperGallery.js"></script>
+    <script src="../scripts/swiperReviews.js"></script>
+    <script src="../scripts/burgerMenu.js"></script>
+    <script src="../scripts/scrollTop.js"></script>
+</body>
+</html>

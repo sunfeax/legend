@@ -1,0 +1,208 @@
+#main-home {
+  margin-top: 6rem;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 8px;
+}
+
+#homeBtns {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.block-title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+/* Swiper Gallery */
+#space {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.swiper {
+  width: 90%;
+}
+
+#space .swiper-slide {
+  height: 500px !important;
+  width: 500px !important;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 8px !important;
+}
+
+.swiper-pagination-bullet {
+  border: 2px solid #ffffff;
+  background: transparent;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #ffb300 !important;
+}
+
+
+/* Swiper Reviews */
+#reviews {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+#reviews-title {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#google-maps-logo {
+  width: 50px;
+  height: auto;
+}
+
+#reviews .swiper-slide {
+  background-color: rgba(21, 21, 21, 0.766);
+  border-left: 5px solid #E99657;
+  border-radius: 10px;
+  padding: 20px 50px 20px 50px;
+  height: auto;
+}
+
+.review-swiper {
+  width: 60%;
+  height: 250px;
+}
+
+.review-swiper .review-name {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.review-swiper .review-stars {
+  color: #f39c12;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.review-swiper .review-date {
+  font-size: 0.9em;
+  color: #777;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  font-size: 20px;
+}
+
+.review-swiper .review-text {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.review-swiper .review-new {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: #28a745;
+  color: white;
+  padding: 6px 10px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+  color: #e99657;
+  opacity: 1;
+}
+
+
+.review-slide {
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.read-more-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: #e99657;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 14px;
+  border: 2px solid #e99657;
+  border-radius: 30px;
+  transition: all ease 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: rgba(64, 64, 64, 0.634);
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  max-width: 90%;
+  max-height: 80vh;
+  background: rgba(22, 22, 22, 0.882);
+  padding: 2rem;
+  font-size: 20px;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn {
+  margin-top: 20px;
+  color: #e99657;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 14px;
+  border: 2px solid #e99657;
+  border-radius: 30px;
+  text-align: center;
+}
